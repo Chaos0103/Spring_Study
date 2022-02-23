@@ -12,8 +12,11 @@
   - JdbcMemberRepository.java
   - JdbcTemplateMemberRepository.java
   - JpaMemberRepository.java
+  - SpringDataJpaMemberRepository.java
 - service
   - MemberService.java
+- aop
+  - TimeTraceAop.java
 - SpringConfig.java
 - templates
   - members
