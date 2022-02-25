@@ -57,3 +57,4 @@
     - MemberServiceTest.java
   - order
     - OrderServiceTest.java
+- build.gradle
