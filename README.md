@@ -33,3 +33,27 @@
 - build.gradle
 - sql
   - ddl.sql
+
+## Project02
+
+- member
+  - Grade.java
+  - Member.java
+  - MemberRepository.java
+  - MemberService.java
+  - MemberServiceImpl.java
+  - MemoryMemberRepository.java
+- order
+  - Order.java
+  - OrderService.java
+  - OrderServiceImpl.java
+- discount
+  - DiscountPolicy.java
+  - FixDiscountPolicy.java
+- MemberApp.java
+- OrderApp.java
+- test
+  - member
+    - MemberServiceTest.java
+  - order
+    - OrderServiceTest.java
