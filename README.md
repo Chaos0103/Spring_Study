@@ -50,11 +50,26 @@
 - discount
   - DiscountPolicy.java
   - FixDiscountPolicy.java
+  - RateDiscountPolicy.java
 - MemberApp.java
 - OrderApp.java
+- AppConfig.java
+- resources
+  - appConfig.xml
 - test
   - member
     - MemberServiceTest.java
   - order
     - OrderServiceTest.java
+  - discount
+    - RateDiscountPolicyTest.java
+  - beanfind
+    - ApplicationContextInfoTest.java
+    - ApplicationContextBasicFindTest.java
+    - ApplicationContextSameBeanFindTest.java
+    - ApplicationContextExtendsFindTest.java
+  - xml
+    - XmlAppContext.java
+  - beandefinition
+    - BeanDefinitionTest.java
 - build.gradle
